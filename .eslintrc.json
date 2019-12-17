@@ -1,0 +1,110 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "airbnb",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "globals": {
+      "document": true,
+      "fetch": true,
+      "FileReader": true,
+      "window": true,
+      "localStorage": true,
+      "API_URL": true,
+      "confirm": true
+    },
+    "rules": {
+      "import/no-unresolved": "off",
+      "indent": [
+        "error",
+        4,
+        {
+          "SwitchCase": 0
+        }
+      ],
+      "react/jsx-indent": [
+        "error",
+        4
+      ],
+      "react/jsx-indent-props": [
+        "error",
+        4
+      ],
+      "react/destructuring-assignment": "off",
+      "react/jsx-one-expression-per-line": "off",
+      "react/sort-comp": "off",
+      "react/no-array-index-key": "off",
+      "react/no-access-state-in-setstate": "off",
+      "react/no-did-update-set-state": "off",
+      "react/no-unescaped-entities": "off",
+      "radix": "off",
+      "no-shadow": "off",
+      "consistent-return": "off",
+      "max-len": [
+        "error",
+        140
+      ],
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [
+            ".tsx"
+          ]
+        }
+      ],
+      "@typescript-eslint/interface-name-prefix": "off",
+      "@typescript-eslint/no-empty-interface": "off",
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "@typescript-eslint/explicit-member-accessibility": "off",
+      "@typescript-eslint/no-empty-function": "off",
+      "@typescript-eslint/indent": [
+        "error",
+        4,
+        {
+          "SwitchCase": 0
+        }
+      ],
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/camelcase": [
+        "error",
+        {
+          "properties": "never"
+        }
+      ],
+      "@typescript-eslint/no-parameter-properties": "off",
+      "no-useless-constructor": "off",
+      "no-empty-function": "off",
+      "func-names": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+      "no-undef": "off",
+      "no-restricted-syntax": "off",
+      "no-continue": "off",
+      "import/no-dynamic-require": "off",
+      "global-require": "off",
+      "arrow-parens": "off",
+      "dot-notation": "off",
+      "prefer-destructuring": "off",
+      "prefer-template": "off",
+      "no-await-in-loop": "off",
+      "no-plusplus": "off",
+      "lines-between-class-members": "off",
+      "no-bitwise": "off",
+      "no-return-assign": "off",
+      "class-methods-use-this": "off",
+      "jsx-a11y/alt-text": "off",
+      "jsx-a11y/label-has-for": "off",
+      "jsx-a11y/label-has-associated-control": "off",
+      "jsx-a11y/click-events-have-key-events": "off",
+      "jsx-a11y/no-static-element-interactions": "off",
+      "jsx-a11y/media-has-caption": "off",
+      "guard-for-in": "off",
+      "semi": "off",
+      "@typescript-eslint/semi": ["error"],
+      "jsx-a11y/anchor-is-valid": "off",
+      "no-dupe-class-members": "off",
+      "import/extensions": "off"
+    }
+  }
